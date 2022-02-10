@@ -1,2 +1,1 @@
-Hello, I am Kazi, majoring in computer science.
-I love to travel.
+Hello I am Kazi majoring in Computer Science loves to travel.
