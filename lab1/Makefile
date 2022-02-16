@@ -1,8 +1,10 @@
-lab1:lab1
-
-lab1: file_in.o
-	g++ file_in.cpp -o lab1
-file_in.o: file_in.cpp
-	g++ -c file_in.cpp
+CC=g++
+CFLAGS = -g -wall
+all: $(TARGET)
+$(TARGET) : clean compile run
+compile: file_in.cpp
+	$(CC) $(CFLAGS) -o $(TARGET) file_in.cpp
 clean:
-	rm -rf *o lab1
+	$(RM) $(TARGET)
+run:
+	./${TARGET}
