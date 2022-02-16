@@ -1,3 +1,4 @@
 lab1:
-    g++ ./Lab-1/file_in.cpp -o ./Lab-1/file_in.o -std=c++98
-    cd Lab-1 && ./file_in.o
+		g++ file_in.cpp -o
+clean:
+		rm -rf *o lab1
