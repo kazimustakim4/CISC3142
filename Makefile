@@ -1,2 +1,2 @@
-lab1: 
-	cd lab01 && g++ -o file_in file_in.cpp &&./file_in
+lab2: 
+	cd lab2 && g++ -o calculator calculator.cpp &&./calculator
