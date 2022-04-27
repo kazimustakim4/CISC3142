@@ -1,8 +1,3 @@
-//
-// Created by makmn on 3/27/2022.
-//
-
-
 #include "../headers/TypedPassRate.h"
 
 TypedPassRate::TypedPassRate() = default;
@@ -132,20 +127,20 @@ void TypedPassRate::printRates(vector<string> reportType, FILE *pFile) {
         double WUPercentage = (value[6]/value[0])*100;
         double withdrawalPercentage = WDPercentage + WPercentage + WNPercentage + WUPercentage;
 
-//        printf("Students Taught: %.2f\n"
-//               "Pass Rate: %.2f%\n"
-//               "Fail Rate: %.2f%\n"
-//               "Total Withdrawal Rate: %.2f%\n"
-//               "INC Rate: %.2f%\n"
-//               "FIN Rate: %.2f%\n"
-//               "AUD Rate: %.2f%\n\n"
-//               "---Withdrawal Rate Breakdown---\n"
-//               "WD Rate: %.2f%\n"
-//               "W Rate: %.2f%\n"
-//               "WN Rate: %.2f%\n"
-//               "WU Rate: %.2f%\n\n\n",
-//               value[0], passedPercentage, failedPercentage, withdrawalPercentage,
-//               INCPercentage, FINPercentage, AUDPercentage, WDPercentage, WPercentage, WNPercentage, WUPercentage);
+       printf("Students Taught: %.2f\n"
+               "Pass Rate: %.2f%\n"
+               "Fail Rate: %.2f%\n"
+               "Total Withdrawal Rate: %.2f%\n"
+               "INC Rate: %.2f%\n"
+               "FIN Rate: %.2f%\n"
+               "AUD Rate: %.2f%\n\n"
+               "---Withdrawal Rate Breakdown---\n"
+               "WD Rate: %.2f%\n"
+              "W Rate: %.2f%\n"
+               "WN Rate: %.2f%\n"
+               "WU Rate: %.2f%\n\n\n",
+               value[0], passedPercentage, failedPercentage, withdrawalPercentage,
+               INCPercentage, FINPercentage, AUDPercentage, WDPercentage, WPercentage, WNPercentage, WUPercentage);
 
         fprintf(pFile, "%11.2f%%\t%11.2f%%\t%19.2f%%\t%5.2f%%\t%5.2f%%\t%5.2f%%\t%6s\t%5.2f%%\t%5.2f%%\t%5.2f%%\t%5.2f%%\t",
                 passedPercentage, failedPercentage, withdrawalPercentage,
@@ -154,7 +149,7 @@ void TypedPassRate::printRates(vector<string> reportType, FILE *pFile) {
         fprintf(pFile, "\n");
     }
     fprintf(pFile, "\n");
-//    printf("Total Students Processed: %.0f\n\n\n\n", totalStudentsProcessed);
+    printf("Total Students Processed: %.0f\n\n\n\n", totalStudentsProcessed);
 }
 
 // Static Definitions (Helper Functions)
