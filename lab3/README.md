@@ -1,13 +1,6 @@
 ## Lab3
-## Purpose
-
-This program takes in a set of formatted input files (see input files section below) 
-displaying course information and grades per student. The program then processes *all* the 
-input files and creates a map of courses to student grades. These grades are then processed 
-to show the rates of each type of grade per course information attribute based on the type 
-of report chosen.
-
-
+## What is this lab?
+This is a program that pulls the data and gives the grades of the student on different terms.
 ## How to Run this Program
 Clone the repository with the recursive flag (the recursive flag is necessary in order to clone the data submodule): 
 
@@ -33,8 +26,8 @@ You can execute the program again in the future by running:
 `./a.out`
 
 
-## Report Generation
-### Report Types
+## Report Publication
+### 3 Types of report
 The following types of reports are available:
 
 1. Rates by Instructor
