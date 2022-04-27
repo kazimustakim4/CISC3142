@@ -4,8 +4,8 @@
 #include <string>
 #include <map>
 
-//#include "headers/InputFileManager.h"
-//#include "headers/GradeRatesByCategory.h"
+#include "headers/InputFileManager.h"
+#include "headers/GradeRatesByCategory.h"
 
 using namespace std;
 
