@@ -1,6 +1,3 @@
-//
-// Created by makmn on 4/14/2022.
-//
 #include "../headers/InputFileManager.h"
 
 vector<string> getInputFiles() {
@@ -10,7 +7,7 @@ vector<string> getInputFiles() {
     string fileNameGivenByUser;
 
 
-    printf("Please follow the README.md file for input file formats\n"
+    printf("Please follow the README.md file for input\n"
            "Type in the name of the input files you would like to use.\n"
            "The program will look in the 'data' folder in the current directory for the files you list.\n");
 
