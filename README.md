@@ -1,4 +1,3 @@
 # CISC3142
-Lab1 (Writing to a txt file): Simply type "make". This will create an executable file named "lab1". Typing "./lab1" creates a file named "lab01.txt".
-
-Lab2 (Calculator): Type "make lab2". This will create an executable file named "lab2". Type "./lab2" to run the calculator.
+Lab 3
+From the provided CSV files require summarization. Each of the data files contains rosters showing students’ enrollment in courses and grades. The main data files to use for generating a report that shows for each instructor.
