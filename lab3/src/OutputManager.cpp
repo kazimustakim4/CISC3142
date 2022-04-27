@@ -1,6 +1,3 @@
-//
-// Created by makmn on 3/27/2022.
-//
 #include "../headers/OutputManager.h"
 
 
