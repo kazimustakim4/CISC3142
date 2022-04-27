@@ -12,7 +12,7 @@ of report chosen.
 ## How to Run this Program
 Clone the repository with the recursive flag (the recursive flag is necessary in order to clone the data submodule): 
 
-``git clone https://github.com/makmn1/CISC-3142-LABS --recursive``
+``git clone https://github.com/kazimustakim4/CISC3142.git``
 
 If you forget to include the --recursive flag, you can update the cloned repository with the submodule by running: 
 
@@ -22,7 +22,7 @@ Next, move into the lab3 directory:
 
 `cd lab3`
 
-You can also add your own data files by following the [Input File Format](https://github.com/makmn1/CISC-3142-LABS/edit/main/lab3/README.md#input-file-format) section below.
+You can also add your own data files by following the [Input File Format](https://github.com/kazimustakim4/CISC3142/edit/main/lab3/README.md) section below.
 
 Build the program using the provided Makefile by running: 
 
