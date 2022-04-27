@@ -1,6 +1,3 @@
-//
-// Created by makmn on 3/25/2022.
-//
 #include "../headers/OutputManager.h"
 #include "../headers/TypedPassRate.h"
 #include "../headers/UserControl.h"
@@ -18,8 +15,8 @@ void gradeRatesByCategories(map<vector<string>, vector<string>> &courseGrades) {
 
     while (userWantsAReport) {
         report.falsifyOptions();
-        printf("\n\n-----------------BETA-----------------\n");
-        printf("---Brooklyn College Course Reporter---\n");
+        printf("\n\n-----Lab3-----\n");
+        printf("---Brooklyn College---\n");
         printf("Current Courses: CISC. 1115, CISC. 3115, CISC. 3130\n\n");
 
         printf("The following output are available:\n\n"
