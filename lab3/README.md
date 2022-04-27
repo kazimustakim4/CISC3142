@@ -1,5 +1,4 @@
-# BC Grade Rates Reporter
-
+## Lab3
 ## Purpose
 
 This program takes in a set of formatted input files (see input files section below) 
