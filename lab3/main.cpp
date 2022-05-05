@@ -20,7 +20,7 @@ int main() {
     in_stream.open(inputFilePaths[0]);
 
     if (in_stream.fail()) {
-        cout << "Can't open input file" << endl;
+        cout << "Unable open input file" << endl;
         exit(1);
     }
 
@@ -36,7 +36,7 @@ int main() {
 
     getline(in_stream, emplid, '\n'); // skip first line
 
-    // read cells one by one
+    // read one by one cell
     while(inputFilesProcessed != inputFilePaths.size()) {
 
         getline(in_stream, emplid, ',');
@@ -46,11 +46,7 @@ int main() {
         getline(in_stream, sectionid, ',');
         getline(in_stream, grade, '\n');
 
-        /*
-         * use map::find to check if the key exists.
-         * If so, just update the grade vector.
-         * If not, create a new key-value pair.
-        */
+       
         auto it = courseGrades.find({courseno, instructorid, termid, sectionid});
         if (it != courseGrades.end()) {
             it->second.push_back(grade);
